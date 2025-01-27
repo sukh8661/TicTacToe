@@ -8,17 +8,17 @@ body {
   text-align: center;
 }
 
-h1{
-    color: #fff;
-    width: 20%;
-    background-color: #000;
-    border-radius: 1rem;
-    font-size: 4rem;
-    font-weight: bolder;
-    margin: 2rem auto;
-    text-shadow: 2px 5px 30px #0000005a;
-    align-items: center;
-    justify-content: center;
+h1 {
+  color: #fff;
+  width: 25%;
+  background-color: #000;
+  border-radius: 1rem;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin: 2rem auto;
+  text-shadow: 2px 5px 30px #0000005a;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -70,7 +70,7 @@ h1{
 
 #msg {
   color: #ffffc7;
-  font-size: 5vmin;
+  font-size: 6vmin;
 }
 
 .msg-container {
@@ -84,4 +84,215 @@ h1{
 
 .hide {
   display: none;
+}
+
+@media screen and (max-width: 1569px) {
+
+  
+
+  h1 {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    width: 50%;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #msg {
+    font-size: 7vmin;
+  }
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.75rem;
+  }
+
+  .msg-container {
+    height: 110vmin;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #msg {
+    font-size: 7vmin;
+  }
+  #new-btn {
+    padding: 1rem;
+  font-size: 1.75rem;
+  }
+
+  .msg-container {
+    height: 125vmin;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #msg {
+    font-size: 7vmin;
+  }
+  #new-btn {
+    padding: 1rem;
+  font-size: 1.75rem;
+  }
+
+  .msg-container {
+    height: 140vmin;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  h1 {
+    width: 60%;
+    font-size: 3.5rem;
+  }
+
+  .game {
+    height: 70vmin;
+    width: 70vmin;
+  }
+
+  .box {
+    height: 22vmin;
+    width: 22vmin;
+  }
+
+  #msg {
+    font-size: 7vmin;
+  }
+
+  #new-btn {
+    padding: 1rem;
+  }
+
+  .msg-container {
+    height: 150vmin;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  #msg {
+    font-size: 8vmin;
+  }
+
+  .msg-container {
+    height: 160vmin;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+ 
+  #msg {
+    font-size: 8vmin;
+  }
+
+  .msg-container {
+    height: 170vmin;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+ 
+  #msg {
+    font-size: 10vmin;
+    width: 70%;
+  }
+
+  .msg-container {
+    height: 180vmin;
+  }
+
+}
+
+@media screen and (max-width: 470px) {
+ 
+  #msg {
+    font-size: 10vmin;
+  }
+
+  .msg-container {
+    height: 195vmin;
+  }
+
+}
+
+@media screen and (max-width: 455px) {
+  h1 {
+    width: 80%;
+    font-size: 3rem;
+  }
+
+  .game {
+    height: 70vmin;
+    width: 70vmin;
+  }
+
+  .box {
+    height: 22vmin;
+    width: 22vmin;
+  }
+
+  #msg {
+    font-size: 10vmin;
+    width: 90%;
+  }
+
+  .msg-container {
+    height: 200vmin;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #msg {
+    font-size: 11vmin;
+  }
+
+  .msg-container {
+    height: 220vmin;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  #msg {
+    font-size: 12vmin;
+  }
+
+  .msg-container {
+    height: 230vmin;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .msg-container {
+    height: 240vmin;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .msg-container {
+    height: 260vmin;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .msg-container {
+    height: 280vmin;
+  }
 }
